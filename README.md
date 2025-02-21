@@ -31,11 +31,11 @@
 
 ### 學習紀錄
 - **線上版**：不儲存學習紀錄，數據不會被記錄
-- **本地版（未來規劃）**：存儲於 JSON 檔案 (`data/userdata/`)
+- **本地版**：存儲於 JSON 檔案 (`data/userdata/`)
 
 ### 題庫管理
 - **線上版**：讀取內建 Demo 題庫 (`public/wordlists/`)
-- **本地版（未來規劃）**：允許用戶自訂 `.txt` 題庫 (`data/wordlists/`)
+- **本地版**：允許用戶自訂 `.txt` 題庫 (`data/wordlists/`)
 
 ## 📍 技術架構
 
