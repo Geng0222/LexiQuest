@@ -1,0 +1,7 @@
+apple,蘋果,noun
+banana,香蕉,noun
+cat,貓,noun
+dog,狗,noun
+happy,快樂,adjective
+run,跑,verb
+eat,吃,verb

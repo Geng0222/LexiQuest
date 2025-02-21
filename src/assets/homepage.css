@@ -1,0 +1,59 @@
+/* 📌 基本樣式 */
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* 🔹 API 狀態顯示 */
+  .api-status {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .api-status.online {
+    color: green;
+  }
+  .api-status.offline {
+    color: red;
+  }
+  
+  /* 🔄 加載中樣式 */
+  .loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* 📚 題庫樣式 */
+  .library {
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* 📖 書籍樣式 */
+  .books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .book {
+    width: 150px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .book:hover {
+    transform: scale(1.05);
+  }
+  
+  .book-subtitle {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+  }
+  
