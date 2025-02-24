@@ -123,8 +123,8 @@ func main() {
 		c.JSON(http.StatusOK, gin.H{"message": "文件已建立"})
 	})
 
-	// ✅ **提供 Vue 靜態文件 (`/lexiquest/`)**
-	r.Static("/lexiquest", "./dist") // **確保對應 Vite 設定**
+	// ✅ **提供 Vue 靜態文件 (`/LexiQuest`)**
+	r.Static("/LexiQuest", "./dist") // **確保對應 Vite 設定**
 
 	r.NoRoute(func(c *gin.Context) {
 		c.File("./dist/index.html")
@@ -140,7 +140,7 @@ func main() {
 	// 🚀 啟動伺服器
 	go func() {
 		fmt.Println("🚀 伺服器啟動成功！")
-		fmt.Println("🌍 區域網存取: http://" + localIP + ":" + port + "/lexiquest/")
+		fmt.Println("🌍 區域網存取: http://" + localIP + ":" + port + "/LexiQuest")
 
 		if err := server.ListenAndServe(); err != nil && err != http.ErrServerClosed {
 			fmt.Println("❌ 伺服器錯誤:", err)
