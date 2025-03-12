@@ -1,0 +1,16 @@
+algorithm, 演算法, noun
+application (app), 應用程式, noun
+bandwidth, 頻寬, noun
+browser, 瀏覽器, noun
+cloud computing, 雲端運算, noun
+database, 資料庫, noun
+encryption, 加密, noun
+firewall, 防火牆, noun
+hardware, 硬體, noun
+software, 軟體, noun
+server, 伺服器, noun
+operating system, 作業系統, noun
+programming, 程式設計, noun
+source code, 原始碼, noun
+virtual reality (VR), 虛擬實境, noun
+artificial intelligence (AI), 人工智慧, noun

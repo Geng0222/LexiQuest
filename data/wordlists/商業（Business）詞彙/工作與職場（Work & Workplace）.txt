@@ -1,0 +1,10 @@
+colleague, 同事, noun
+deadline, 截止日期, noun
+efficiency, 效率, noun
+leadership, 領導力, noun
+meeting, 會議, noun
+multitasking, 多工處理, noun
+productivity, 生產力, noun
+remote work, 遠端工作, noun
+resume, 履歷, noun
+teamwork, 團隊合作, noun

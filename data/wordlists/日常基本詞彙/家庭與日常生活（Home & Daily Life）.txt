@@ -1,0 +1,10 @@
+apartment, 公寓, noun
+bathroom, 浴室, noun
+bed, 床, noun
+blanket, 毯子, noun
+furniture, 家具, noun
+key, 鑰匙, noun
+lamp, 檯燈, noun
+mirror, 鏡子, noun
+refrigerator, 冰箱, noun
+shower, 淋浴, noun

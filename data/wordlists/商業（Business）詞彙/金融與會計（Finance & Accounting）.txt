@@ -1,0 +1,10 @@
+asset, 資產, noun
+bankruptcy, 破產, noun
+budget, 預算, noun
+capital, 資本, noun
+currency, 貨幣, noun
+debt, 債務, noun
+equity, 股權, noun
+interest rate, 利率, noun
+investment, 投資, noun
+stock market, 股票市場, noun

@@ -1,3 +1,4 @@
+// utils/useApiStatus.js
 import { ref, onMounted, watchEffect } from "vue";
 
 export function useApiStatus() {

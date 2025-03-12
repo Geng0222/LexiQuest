@@ -1,7 +1,0 @@
-CPU,中央處理器,noun
-RAM,隨機存取記憶體,noun
-cache,快取,noun
-algorithm,演算法,noun
-debug,除錯,verb
-syntax,語法,noun
-compiler,編譯器,noun

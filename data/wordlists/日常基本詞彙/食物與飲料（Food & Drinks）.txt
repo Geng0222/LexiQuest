@@ -1,0 +1,10 @@
+apple, 蘋果, noun
+banana, 香蕉, noun
+bread, 麵包, noun
+butter, 奶油, noun
+cheese, 起司, noun
+chicken, 雞肉, noun
+coffee, 咖啡, noun
+juice, 果汁, noun
+rice, 米飯, noun
+vegetable, 蔬菜, noun

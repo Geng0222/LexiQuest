@@ -3,6 +3,41 @@ import { defineStore } from "pinia";
 import { loadWordlist } from "../utils/loadWordlist.js";
 import { useApiStatus } from "../utils/useApiStatus";
 
+// 新增一個函式，根據單字呼叫字典 API
+async function fetchDictionaryEntry(word) {
+  try {
+    const response = await fetch(`http://localhost:28080/dictionary/${word}`);
+    if (!response.ok) {
+      throw new Error(`無法取得 ${word} 的字典資料，HTTP 狀態: ${response.status}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error("獲取字典資料失敗:", error);
+    return null;
+  }
+}
+
+// 整合題庫中的每個單字資料
+async function enrichWordsWithDictionaryData(words) {
+  const enrichedWords = await Promise.all(
+    words.map(async (wordObj) => {
+      const dictData = await fetchDictionaryEntry(wordObj.word);
+      if (dictData) {
+        // 將字典 API 回傳的資料整合進原本的單字物件中
+        return {
+          ...wordObj,
+          phonetic: dictData.phonetic,
+          audio: dictData.audio,
+          meanings: dictData.meanings,
+        };
+      }
+      // 若無法取得資料則返回原單字物件
+      return wordObj;
+    })
+  );
+  return enrichedWords;
+}
+
 export const useQuizStore = defineStore("quiz", {
   state: () => ({
     words: [], // 存放題庫
@@ -14,13 +49,14 @@ export const useQuizStore = defineStore("quiz", {
     // ✅ 加載完整題庫（靜態模式 & API）
     async loadQuiz(category, filename) {
       const response = await loadWordlist(category, filename);
-
+    
       if (!response.success) {
         console.error("❌ 題庫載入失敗:", response.error);
         return;
       }
-
-      this.words = response.data;
+    
+      // 使用上面的函式整合字典 API 資料
+      this.words = await enrichWordsWithDictionaryData(response.data);
       this.currentIndex = 0;
       this.correctAnswers = 0;
     },
@@ -60,7 +96,7 @@ export const useQuizStore = defineStore("quiz", {
         wordlist = response.data.sort(() => Math.random() - 0.5).slice(0, limit);
       }
 
-      this.words = wordlist;
+      this.words = await enrichWordsWithDictionaryData(wordlist);
       this.currentIndex = 0;
       this.correctAnswers = 0;
     },

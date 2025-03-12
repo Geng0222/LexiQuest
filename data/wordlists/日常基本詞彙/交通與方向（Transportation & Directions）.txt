@@ -1,0 +1,10 @@
+airport, 機場, noun
+avenue, 大道, noun
+bridge, 橋樑, noun
+bus, 公車, noun
+highway, 高速公路, noun
+intersection, 交叉路口, noun
+subway, 地鐵, noun
+traffic light, 紅綠燈, noun
+turn left, 向左轉, phrase
+turn right, 向右轉, phrase

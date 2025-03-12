@@ -1,0 +1,10 @@
+advertising, 廣告, noun
+brand, 品牌, noun
+consumer, 消費者, noun
+demand, 需求, noun
+market research, 市場調查, noun
+product launch, 產品發表, noun
+promotion, 促銷, noun
+target audience, 目標受眾, noun
+trend, 趨勢, noun
+value proposition, 價值主張, noun

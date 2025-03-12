@@ -123,6 +123,8 @@ func main() {
 		c.JSON(http.StatusOK, gin.H{"message": "文件已建立"})
 	})
 
+	r.GET("/dictionary/:word", GoApiFunc.GetWordHandler)
+
 	// ✅ **提供 Vue 靜態文件 (`/LexiQuest`)**
 	r.Static("/LexiQuest", "./dist") // **確保對應 Vite 設定**
 

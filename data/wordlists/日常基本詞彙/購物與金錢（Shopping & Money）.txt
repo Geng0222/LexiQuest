@@ -1,0 +1,10 @@
+bill, 帳單, noun
+cash, 現金, noun
+credit card, 信用卡, noun
+customer, 顧客, noun
+discount, 折扣, noun
+expensive, 貴的, adjective
+price, 價格, noun
+receipt, 收據, noun
+refund, 退款, noun/verb
+shopping mall, 購物中心, noun

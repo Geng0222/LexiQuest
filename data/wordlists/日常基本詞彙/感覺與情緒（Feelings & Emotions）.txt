@@ -1,0 +1,10 @@
+angry, 生氣的, adjective
+bored, 無聊的, adjective
+disappointed, 失望的, adjective
+excited, 興奮的, adjective
+frustrated, 沮喪的, adjective
+happy, 快樂的, adjective
+nervous, 緊張的, adjective
+sad, 傷心的, adjective
+satisfied, 滿意的, adjective
+surprised, 驚訝的, adjective

@@ -1,0 +1,10 @@
+allergy, 過敏, noun
+ambulance, 救護車, noun
+cough, 咳嗽, noun/verb
+fever, 發燒, noun
+headache, 頭痛, noun
+medicine, 藥, noun
+nurse, 護士, noun
+patient, 病人, noun
+pharmacy, 藥局, noun
+symptom, 症狀, noun

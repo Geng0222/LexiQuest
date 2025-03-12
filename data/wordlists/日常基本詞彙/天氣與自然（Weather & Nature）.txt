@@ -1,0 +1,10 @@
+cloudy, 多雲的, adjective
+earthquake, 地震, noun
+flood, 洪水, noun
+foggy, 有霧的, adjective
+hurricane, 颶風, noun
+rainy, 下雨的, adjective
+snow, 雪, noun
+storm, 暴風雨, noun
+sunny, 晴朗的, adjective
+temperature, 溫度, noun

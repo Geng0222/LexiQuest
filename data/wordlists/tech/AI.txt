@@ -1,8 +1,0 @@
-machine learning,機器學習,noun
-neural network,神經網絡,noun
-deep learning,深度學習,noun
-NLP,自然語言處理,noun
-computer vision,電腦視覺,noun
-dataset,數據集,noun
-bias,偏差,noun
-reinforcement learning,強化學習,noun

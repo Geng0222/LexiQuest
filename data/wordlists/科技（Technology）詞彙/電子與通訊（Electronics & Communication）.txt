@@ -1,0 +1,10 @@
+Bluetooth, 藍牙, noun
+circuit, 電路, noun
+microchip, 微晶片, noun
+semiconductor, 半導體, noun
+wireless, 無線的, adjective
+fiber optic, 光纖, noun
+satellite, 衛星, noun
+smartphone, 智慧型手機, noun
+touchscreen, 觸控螢幕, noun
+USB (Universal Serial Bus), 通用序列匯流排, noun

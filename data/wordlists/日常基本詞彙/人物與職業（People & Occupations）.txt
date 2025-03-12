@@ -1,0 +1,10 @@
+artist, 藝術家, noun
+banker, 銀行家, noun
+chef, 廚師, noun
+doctor, 醫生, noun
+engineer, 工程師, noun
+lawyer, 律師, noun
+nurse, 護士, noun
+police officer, 警察, noun
+scientist, 科學家, noun
+teacher, 老師, noun

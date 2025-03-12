@@ -1,0 +1,10 @@
+backpack, 背包, noun
+baggage, 行李, noun
+check-in, 辦理入住, noun/verb
+guidebook, 旅遊指南, noun
+landmark, 地標, noun
+passport, 護照, noun
+reservation, 預訂, noun
+sightseeing, 觀光, noun
+souvenir, 紀念品, noun
+tourist, 遊客, noun

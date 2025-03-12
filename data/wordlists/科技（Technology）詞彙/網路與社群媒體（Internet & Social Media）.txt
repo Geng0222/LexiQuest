@@ -1,0 +1,10 @@
+algorithm, 演算法, noun
+big data, 大數據, noun
+cyber security, 網路安全, noun
+digital marketing, 數位行銷, noun
+influencer, 網紅, noun
+keyword, 關鍵字, noun
+online platform, 線上平台, noun
+search engine, 搜尋引擎, noun
+social media, 社群媒體, noun
+viral, 爆紅的, adjective

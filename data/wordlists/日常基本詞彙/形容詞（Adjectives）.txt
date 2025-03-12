@@ -1,0 +1,10 @@
+amazing, 令人驚嘆的, adjective
+comfortable, 舒適的, adjective
+delicious, 美味的, adjective
+difficult, 困難的, adjective
+expensive, 昂貴的, adjective
+fast, 快速的, adjective
+generous, 慷慨的, adjective
+polite, 有禮貌的, adjective
+quiet, 安靜的, adjective
+useful, 有用的, adjective
