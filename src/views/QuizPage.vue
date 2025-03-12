@@ -1,5 +1,4 @@
 //QuizPage.vue
-<!-- QuizPage.vue -->
 <template>
   <div class="quiz-container">
     <div class="quiz-header">
@@ -117,6 +116,11 @@ export default {
       playAudio();
     });
 
+    // 🔹 用來規範化答案字串，保留中間空格但統一多個空格成單一空格
+    function normalizeString(str) {
+      return str.trim().replace(/\s+/g, ' ').toLowerCase();
+    }
+
     onMounted(async () => {
       startTime.value = Date.now();
       timer = setInterval(() => {
@@ -150,9 +154,10 @@ export default {
     async function checkAnswer() {
       if (!currentWord.value) return;
 
+      // 使用 normalizeString 處理，確保空格也被納入檢驗
       if (
-        userInput.value.trim().toLowerCase() ===
-        currentWord.value.word.toLowerCase()
+        normalizeString(userInput.value) ===
+        normalizeString(currentWord.value.word)
       ) {
         feedback.value = "✅ 正確!";
         store.correctAnswers++;
